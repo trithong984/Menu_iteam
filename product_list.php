@@ -11,6 +11,10 @@
                     <div class="left-side my-4">
                         <h3 class="sear-head">Danh mục</h3>
                         <ul class="w3layouts-box-list">
+                        <li>
+            <a href="?action=list_products" class="active">Tất cả sản phẩm</a>
+        </li>
+        <li>
                         <?php
 foreach ($categories as $category) {
     echo "<ul>";
@@ -24,12 +28,13 @@ foreach ($categories as $category) {
     echo "</ul>";
 }
 ?>
-                          
+                        </li>   
                         </ul>
                     </div>
-                    <div class="left-side">
+                    </div> 
+                    <div class="title_category">
+                       <h3> <?php echo $category_name;?> </h3>
                     </div>
-                </div>
                 <div class="left-ads-display col-lg-8">
                     <div class="row">
                         <?php 
@@ -43,7 +48,7 @@ foreach ($categories as $category) {
                                     </div>
                                     <div class="item-info-product">
                                         <h4>
-                                            <a href="product_view.php">'.$product['productName'].'</a>
+                                        <a href=?action=view_product&product_id='.$product['productID'].'>'.$product['productName'].'</a>
                                         </h4>
     
                                         <div class="product_price">
@@ -54,7 +59,7 @@ foreach ($categories as $category) {
                                         <ul class="stars">
                                             <li><a href="#"><span class="fa fa-star" aria-hidden="true"></span></a></li>
                                             <li><a href="#"><span class="fa fa-star" aria-hidden="true"></span></a></li>
-                                            <li><a href="#"><span class="fa fa-star-half-o" aria-hidden="true"></span></a></li>
+                                            <li><a href="#"><span class="fa fa-star" aria-hidden="true"></span></a></li>
                                             <li><a href="#"><span class="fa fa-star-half-o" aria-hidden="true"></span></a></li>
                                             <li><a href="#"><span class="fa fa-star-o" aria-hidden="true"></span></a></li>
                                         </ul>
