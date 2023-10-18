@@ -1,10 +1,4 @@
-<ol class="breadcrumb">
-        <li class="breadcrumb-item">
-            <a href="index.html">Home</a>
-        </li>
-        <li class="breadcrumb-item active">Single Page</li>
-    </ol>
-    <section class="ab-info-main py-md-5 py-4">
+<section class="ab-info-main py-md-5 py-4">
         <div class="container py-md-3">
             <div class="row">
                 <div class="side-bar col-lg-4">

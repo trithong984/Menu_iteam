@@ -279,7 +279,7 @@ li>a:only-child:after {
     }
 }
 .main-banner {
-    background: url(images/banner.jpg)no-repeat center;
+    background: url(images/banner_.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -290,14 +290,14 @@ li>a:only-child:after {
 }
 
 .inner-banner {
-    background: url(images/banner.jpg)no-repeat center;
+    background: url(images/banner_.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
     position: relative;
-    height: 20em;
+    height: 50em;
 }
 
 .banner-info {

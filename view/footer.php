@@ -29,7 +29,7 @@
             <div class="row footer-top">
                 <div class="col-lg-4 footer-grid_section_w3layouts">
                     <h2 class="logo-2 mb-lg-4 mb-3">
-                        <a href="index.html"><span class="fa fa-bold" aria-hidden="true"></span>ootie</a>
+                        <a href="index.html"><span class="" aria-hidden="true"></span>Daily</a>
                     </h2>
                     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <h4 class="sub-con-fo ad-info my-4">Catch on Social</h4>
@@ -132,14 +132,6 @@
                         </div>
 
 
-                    </div>
-                    <div class="cpy-right text-left row">
-                        <p class="col-md-10">© 2019 Bootie. All rights reserved | Design by
-                            <a href="http://w3layouts.com"> W3layouts.</a>
-                        </p>
-                        <!-- move top icon -->
-                        <a href="#home" class="move-top text-right col-md-2"><span class="fa fa-long-arrow-up" aria-hidden="true"></span></a>
-                        <!-- //move top icon -->
                     </div>
                 </div>
             </div>

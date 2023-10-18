@@ -33,7 +33,7 @@
                 <!-- nav -->
                 <nav class="py-4">
                     <div id="logo">
-                        <h1> <a href="index.html"><span class="fa fa-bold" aria-hidden="true"></span>ootie</a></h1>
+                        <h1> <a href="index.html"><span class="" aria-hidden="true">Daily</span></a></h1>
                     </div>
                     <label for="drop" class="toggle">Menu</label>
                     <input type="checkbox" id="drop" />
@@ -72,19 +72,13 @@
     </ul>
   </li>
   <li>
-    <a href="index.php?act=sanphamct">Sản phẩm chi tiết</a>
-  </li>
-  <li>
     <a href="index.php?act=lienhe">Liên hệ</a>
   </li>
   <li>
     <a href="index.php?act=viewcart">Giỏ hàng</a>
   </li>
 </ul>
-
                 </nav>
-                <!-- //nav -->
             </div>
         </header>
-        <!--// banner-inner -->
     </div>
